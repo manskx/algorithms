@@ -16,4 +16,14 @@ public class IO {
 			System.out.println(list.get(i));
 		}
 	}
+	
+	public static void PrintTwoDimensionalArray(ArrayList<ArrayList<Integer>> arr){
+		for(int i=0; i<arr.size(); i++){
+			String x	=	"";
+			for(int j=0; j<arr.get(i).size(); j++){
+				x	+=	" "+arr.get(i).get(j);
+			}
+			System.out.println(x);
+		}
+	}
 }
