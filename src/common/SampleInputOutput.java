@@ -10,7 +10,7 @@ import java.util.*;
  */
 public class SampleInputOutput {
 
-	public static Integer[] arrayOfIntegers = { 5, 9, 10, 7, 28, 6, 20, 3, 11 };
+	public static Integer[] arrayOfIntegers = { 1, 3, 2, 4, 5 };
 	public static Integer[] arrayOfSortedIntegers = { 3, 5, 6, 7, 9, 10, 11, 20, 28 };
 	public static Integer[] arrayOfReversedSortedIntegers = { 28, 20, 11, 10, 9, 7, 6, 5, 3 };
 	
