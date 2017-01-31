@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sortingAlgorithms;
+package sorting;
 
 import java.util.*;
 
