@@ -15,8 +15,29 @@ public class BST {
 		root.left.right = new BSTNode(3);
 
 		// root.right.left = new BSTNode(3);
-		System.out.println(isValidBST(root));
+		System.out.println(getMiminumNode2(root).data);
 		// 3 2 4 1 3;
+	}
+
+	/**
+	 * minimum node in tree
+	 */
+
+	public static BSTNode getMiminumNode(BSTNode a) {
+		if (a == null)
+			return null;
+		BSTNode temp = getMiminumNode(a.left);
+
+		if (temp == null)
+			return a;
+		return temp;
+
+	}
+	
+	public static BSTNode getMiminumNode2(BSTNode a) {
+		if (a.left == null)
+			return a;
+		return getMiminumNode(a.left);
 	}
 
 	/**
